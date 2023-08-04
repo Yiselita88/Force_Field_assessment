@@ -1,0 +1,4 @@
+parm strip.peptide_sol.prmtop
+trajin autoimage.nc
+cluster hieragglo epsilon 1.5 linkage rms :1-16@C,N,CA&!@H= sieve 25000 summary summary singlerepout representative repout unique repfmt pdb clusterout clusttraj clusterfmt netcdf avgout avg avgfmt pdb out frame_vs_cluster.txt
+run

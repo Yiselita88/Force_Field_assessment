@@ -1,0 +1,4 @@
+parm strip.peptide_sol.prmtop
+trajin autoimage.nc
+phipsi -180 180 out phipsi.dat resrange 1-16
+run

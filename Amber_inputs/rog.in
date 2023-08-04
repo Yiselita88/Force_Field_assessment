@@ -1,0 +1,5 @@
+parm strip.peptide_sol.prmtop
+trajin autoimage.nc
+radgyr :1-16&!(@H=) out RoG.dat mass nomax
+go
+quit

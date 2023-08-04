@@ -1,0 +1,4 @@
+parm strip.peptide_sol.prmtop
+trajin autoimage.nc
+atomicfluct byres :1-16@C,CA,N out rmsf.dat
+run

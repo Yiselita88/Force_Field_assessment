@@ -1,0 +1,4 @@
+parm strip.peptide_sol.prmtop
+trajin autoimage.nc
+multidihedral chainone phi psi resrange 1-16 out dihedral_all.dat
+run

@@ -1,0 +1,5 @@
+parm strip.peptide_sol.prmtop
+trajin autoimage.nc 1 500001 100
+distance end-to-end :1 :16 out end2end_sieved.dat
+run
+quit

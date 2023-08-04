@@ -1,0 +1,6 @@
+parm peptide_sol.prmtop
+trajin imaged.nc 
+dssp protein out dssp.dat
+matrix mwcovar name ssmap :1-16@CA out sstime_2.dat
+go
+

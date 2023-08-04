@@ -1,0 +1,5 @@
+parm strip.peptide_sol.prmtop
+trajin autoimage.nc
+multidihedral DPDP phi psi
+run
+phipsi DPDP[phi] DPDP[psi] out phipsi.dat resrange 1-16

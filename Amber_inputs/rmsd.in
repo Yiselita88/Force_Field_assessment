@@ -1,0 +1,4 @@
+parm strip.peptide_sol.prmtop
+trajin autoimage.nc
+rms first :1-16@CA out rmsd_2first.dat
+go

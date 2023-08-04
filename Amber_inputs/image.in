@@ -1,0 +1,11 @@
+parm peptide_sol.prmtop
+trajin ../heat+MD/md1.nc
+trajin ../heat+MD/md2.nc
+trajin ../heat+MD/md3.nc
+trajin ../heat+MD/md4.nc
+trajin ../heat+MD/md5.nc
+trajin ../heat+MD/md6.nc
+autoimage
+trajout imaged.nc
+go
+quit

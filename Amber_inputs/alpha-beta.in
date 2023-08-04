@@ -1,0 +1,6 @@
+parm peptide_sol.prmtop
+trajin ../heat+MD/md6.nc
+secstruct :1-16 out dssp.dat
+matrix mwcovar name ssmap out sstime.dat :1-16
+go
+
